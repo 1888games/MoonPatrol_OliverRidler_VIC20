@@ -10,7 +10,7 @@ The disassembly is in KickAssembler format with the Basic startup code replaced.
 
 It can be run in VICE using Inject To Ram and with all RAM expansions disabled. 
 
-To launch the VIC-20 version of VICE automatically with Sublime Text/Kickass you need to add "kickass_run_path": "c:/c64/tools/vice/bin/xvic.exe" to your KickAssembler (C64).sublime-settings file. You'll need to switch this back to x64sc.exe if you want to return to C64 work.
+To launch the VIC-20 version of VICE automatically with Sublime Text/Kickass you need to add "kickass_run_path": "YOUR_PATH/vice/bin/xvic.exe" to your KickAssembler (C64).sublime-settings file. You'll need to switch this back to x64sc.exe if you want to return to C64 work.
 
 
 
