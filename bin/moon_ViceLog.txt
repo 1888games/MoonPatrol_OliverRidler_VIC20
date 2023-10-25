@@ -1,0 +1,338 @@
+Opening monitor command playback file: C:\Users\NickSherman\Dropbox\C64\Projects\Moon Patrol/bin/moon.vs
+ 
+*** VICE Version 3.7 ***
+ 
+Welcome to xvic, the free portable VIC20 Emulator.
+ 
+Current VICE team members:
+Martin Pottendorfer, Marco van den Heuvel, Fabrizio Gennari, Groepaz, 
+Errol Smith, Ingo Korb, Olaf Seibert, Marcus Sutton, Kajtar Zsolt, AreaScout, 
+Bas Wassink, Michael C. Martin, Christopher Phillips, David Hogan, 
+Empathic Qubit, Roberto Muscedere, June Tate-Gans, Pablo Roldan.
+ 
+This is free software with ABSOLUTELY NO WARRANTY.
+See the "About VICE" command for more info.
+ 
+random seed was: 0x6538df23
+command line was: c:/c64/tools/vice/bin/xvic.exe -logfile C:\Users\NickSherman\Dropbox\C64\Projects\Moon Patrol/bin/moon_ViceLog.txt -moncommands C:\Users\NickSherman\Dropbox\C64\Projects\Moon Patrol/bin/moon.vs C:\Users\NickSherman\Dropbox\C64\Projects\Moon Patrol/bin/moon.prg
+Loading system file `c:\c64\tools\vice\bin\..\VIC20\kernal.901486-07.bin'.
+Loading system file `c:\c64\tools\vice\bin\..\VIC20\basic-901486-01.bin'.
+Loading system file `c:\c64\tools\vice\bin\..\VIC20\chargen-901460-03.bin'.
+Loading system file `c:\c64\tools\vice\bin\..\PRINTER\mps803.bin'.
+Palette: Loading palette `c:\c64\tools\vice\bin\..\PRINTER\mps803.vpl'.
+Loading system file `c:\c64\tools\vice\bin\..\PRINTER\nl10.bin'.
+Palette: Loading palette `c:\c64\tools\vice\bin\..\PRINTER\nl10.vpl'.
+NL10: Printer driver initialized.
+Palette: Loading palette `c:\c64\tools\vice\bin\..\PRINTER\1520.vpl'.
+Loading system file `c:\c64\tools\vice\bin\..\DRIVES\dos1540-325302+3-01.bin'.
+Loading system file `c:\c64\tools\vice\bin\..\DRIVES\dos1541-325302-01+901229-05.bin'.
+Loading system file `c:\c64\tools\vice\bin\..\DRIVES\dos1541ii-251968-03.bin'.
+Loading system file `c:\c64\tools\vice\bin\..\DRIVES\dos1570-315090-01.bin'.
+Loading system file `c:\c64\tools\vice\bin\..\DRIVES\dos1571-310654-05.bin'.
+Loading system file `c:\c64\tools\vice\bin\..\DRIVES\dos1581-318045-02.bin'.
+DriveROM: Error - 2000 ROM image not found. Hardware-level 2000 emulation is not available.
+DriveROM: Error - 4000 ROM image not found. Hardware-level 4000 emulation is not available.
+DriveROM: Error - CMDHD ROM image not found. Hardware-level CMDHD emulation is not available.
+Loading system file `c:\c64\tools\vice\bin\..\DRIVES\dos2031-901484-03+05.bin'.
+Loading system file `c:\c64\tools\vice\bin\..\DRIVES\dos2040-901468-06+07.bin'.
+Loading system file `c:\c64\tools\vice\bin\..\DRIVES\dos3040-901468-11-13.bin'.
+Loading system file `c:\c64\tools\vice\bin\..\DRIVES\dos4040-901468-14-16.bin'.
+Loading system file `c:\c64\tools\vice\bin\..\DRIVES\dos1001-901887+8-01.bin'.
+Loading system file `c:\c64\tools\vice\bin\..\DRIVES\dos9000-300516+7-revC.bin'.
+Drive: Finished loading ROM images.
+using GTK3 backend: DirectX
+chip_name: VIC
+ screen_size: 568 x 312
+ first/lastline: 0 x 0
+ gfx_size: 352 x 184
+ gfx_position: 96 x 48
+ first/last displayed line: 28 x 311
+ extra offscreen border left/right: 540 x 540
+ screen_display_wh: 0.000000 x 0.000000
+ canvas_physical_wh: 0 x 0
+ scalexy: 2 x 2
+ sizexy: 1 x 1
+ rmode: 1
+ aspect ratio: 0.832870
+ hstretch: 0
+ vstretch: 0
+ initializing with width, height: 704 x 471
+Created render thread 0
+Render thread initialised
+Sound: Available sound devices: dx wmm dummy fs dump wav voc iff aiff mp3 flac ogg soundmovie
+EthernetARCH: LoadLibrary WPCAP.DLL failed!
+GTK3MOUSE: Status changed: 0 (disabled)
+MIDIdrv: init driver
+MIDIdrv: found 0 sources
+MIDIdrv: found 1 destinations
+MIDIdrv: destination #0: Microsoft GS Wavetable Synth
+Loading keymap `c:\c64\tools\vice\bin\..\VIC20\gtk3_sym.vkm'.
+HOTKEYS: Hotkeys: Initializing.
+HOTKEYS: Hotkeys: Parsing VIC20 hotkeys file:
+HOTKEYS: Hotkeys: OK.
+AUTOSTART: Autodetecting image type of `C:\Users\NickSherman\Dropbox\C64\Projects\Moon Patrol/bin/moon.prg'.
+Filesystem Image Probe: Error - Import GCR: Unknown GCR image version 52.
+Filesystem Image: Unknown disk image `C:\Users\NickSherman\Dropbox\C64\Projects\Moon Patrol/bin/moon.prg'.
+Tape: Error - Cannot open file `C:\Users\NickSherman\Dropbox\C64\Projects\Moon Patrol/bin/moon.prg'
+Error - no CRT header found.
+CART: 'C:\Users\NickSherman\Dropbox\C64\Projects\Moon Patrol/bin/moon.prg' is not a valid CRT file.
+AUTOSTART: Loading PRG file `C:\Users\NickSherman\Dropbox\C64\Projects\Moon Patrol/bin/moon.prg' with direct RAM injection.
+AUTOSTART: Resetting the machine to autostart '*'
+AUTOSTART: Turning Warp mode on.
+AUTOSTART: `C:\Users\NickSherman\Dropbox\C64\Projects\Moon Patrol/bin/moon.prg' recognized as program/p00 file.
+Main CPU: starting at ($FFFC).
+Main CPU: RESET.
+Unit 8: RESET.
+Increasing trap_func array size to 1 with 1 to run
+Monitor playback command: al C:1aeb .L_1aeb
+Unit 8: RESET.
+Monitor playback command: al C:1a57 .L_1a57
+Monitor playback command: al C:195b .L_195b
+Monitor playback command: al C:9117 .VIA1T1LH
+Monitor playback command: al C:1173 .L_1173
+Monitor playback command: al C:1176 .L_1176
+Monitor playback command: al C:9210 .VIA2PB
+Monitor playback command: al C:1970 .L_1970
+Monitor playback command: al C:911b .VIA1ACR
+Monitor playback command: al C:1617 .L_1617
+Monitor playback command: al C:128d .L_128d
+Monitor playback command: al C:16c6 .L_16c6
+Monitor playback command: al C:15a7 .L_15a7
+Monitor playback command: al C:9116 .VIA1T1LL
+Monitor playback command: al C:1b7e .L_1b7e
+Monitor playback command: al C:1504 .L_1504
+Monitor playback command: al C:1b90 .L_1b90
+Monitor playback command: al C:9112 .VIA1DDRB
+Monitor playback command: al C:9113 .VIA1DDRA
+Monitor playback command: al C:1744 .L_1744
+Monitor playback command: al C:1a70 .L_1a70
+Monitor playback command: al C:105c .L_105c
+Monitor playback command: al C:16d3 .L_16d3
+Monitor playback command: al C:173a .L_173a
+Monitor playback command: al C:911e .VIA1IER
+Monitor playback command: al C:921f .VIA2PA2
+Monitor playback command: al C:911c .VIA1PCR
+Monitor playback command: al C:9211 .VIA2PA1
+Monitor playback command: al C:197d .L_197d
+Monitor playback command: al C:1b8c .L_1b8c
+Monitor playback command: al C:1a6e .L_1a6e
+Monitor playback command: al C:100f .Entry
+Monitor playback command: al C:9218 .VIA2T2CL
+Monitor playback command: al C:9219 .VIA2T2CH
+Monitor playback command: al C:1757 .L_1757
+Monitor playback command: al C:1a80 .L_1a80
+Monitor playback command: al C:1997 .L_1997
+Monitor playback command: al C:106c .L_106c
+Monitor playback command: al C:16e3 .L_16e3
+Monitor playback command: al C:911d .VIA1IFR
+Monitor playback command: al C:1b9a .L_1b9a
+Monitor playback command: al C:1089 .L_1089
+Monitor playback command: al C:1b9e .L_1b9e
+Monitor playback command: al C:1400 .L_1400
+Monitor playback command: al C:1520 .L_1520
+Monitor playback command: al C:1a90 .L_1a90
+Monitor playback command: al C:921b .VIA2ACR
+Monitor playback command: al C:1402 .L_1402
+Monitor playback command: al C:1648 .L_1648
+Monitor playback command: al C:175e .L_175e
+Monitor playback command: al C:1770 .L_1770
+Monitor playback command: al C:9214 .VIA2T1CL
+Monitor playback command: al C:16ea .L_16ea
+Monitor playback command: al C:9215 .VIA2T1CH
+Monitor playback command: al C:108d .L_108d
+Monitor playback command: al C:164f .L_164f
+Monitor playback command: al C:1a9a .L_1a9a
+Monitor playback command: al C:140f .L_140f
+Monitor playback command: al C:15df .L_15df
+Monitor playback command: al C:14d0 .L_14d0
+Monitor playback command: al C:14d2 .L_14d2
+Monitor playback command: al C:141f .L_141f
+Monitor playback command: al C:14d9 .L_14d9
+Monitor playback command: al C:1d16 .L_1d16
+Monitor playback command: al C:165f .L_165f
+Monitor playback command: al C:1430 .L_1430
+Monitor playback command: al C:9119 .VIA1T2CH
+Monitor playback command: al C:1673 .L_1673
+Monitor playback command: al C:1d0e .L_1d0e
+Monitor playback command: al C:9118 .VIA1T2CL
+Monitor playback command: al C:1678 .L_1678
+Monitor playback command: al C:12a2 .L_12a2
+Monitor playback command: al C:1c04 .L_1c00
+Monitor playback command: al C:9111 .VIA1PA1
+Monitor playback command: al C:12a5 .L_12a5
+Monitor playback command: al C:13c6 .L_13c6
+Monitor playback command: al C:142d .L_142d
+Monitor playback command: al C:911f .VIA1PA2
+Monitor playback command: al C:13ba .L_13ba
+Monitor playback command: al C:1684 .L_1684
+Monitor playback command: al C:1207 .L_1207
+Monitor playback command: al C:1689 .L_1689
+Monitor playback command: al C:1208 .L_1208
+Monitor playback command: al C:179b .L_179b
+Monitor playback command: al C:1e00 .SCREEN_BUFFER_0
+Monitor playback command: al C:14f6 .L_14f6
+Monitor playback command: al C:1d35 .L_1d35
+Monitor playback command: al C:1cc1 .L_1cc1
+Monitor playback command: al C:1ba3 .L_1ba3
+Monitor playback command: al C:9115 .VIA1T1CH
+Monitor playback command: al C:14ec .L_14ec
+Monitor playback command: al C:1212 .L_1212
+Monitor playback command: al C:1338 .L_1338
+Monitor playback command: al C:9114 .VIA1T1CL
+Monitor playback command: al C:900c .VICCRC
+Monitor playback command: al C:900d .VICCRD
+Monitor playback command: al C:900e .VICCRE
+Monitor playback command: al C:900f .VICCRF
+Monitor playback command: al C:11a4 .L_11a4
+Monitor playback command: al C:12c6 .L_12c6
+Monitor playback command: al C:900a .VICCRA
+Monitor playback command: al C:1d42 .L_1d42
+Monitor playback command: al C:900b .VICCRB
+Monitor playback command: al C:19a5 .L_19a5
+Monitor playback command: al C:1340 .L_1340
+Monitor playback command: al C:1d3c .L_1d3c
+Monitor playback command: al C:1104 .L_1104
+Monitor playback command: al C:1d3a .L_1d3a
+Monitor playback command: al C:1348 .L_1348
+Monitor playback command: al C:100f .begin
+Monitor playback command: al C:911a .VIA1SR
+Monitor playback command: al C:1908 .L_1908
+Monitor playback command: al C:1c31 .L_1c31
+Monitor playback command: al C:1d52 .L_1d52
+Monitor playback command: al C:1bac .L_1bac
+Monitor playback command: al C:145d .L_145d
+Monitor playback command: al C:1b17 .L_1b17
+Monitor playback command: al C:12d8 .L_12d8
+Monitor playback command: al C:19b0 .L_19b0
+Monitor playback command: al C:9003 .VICCR3
+Monitor playback command: al C:1110 .L_1110
+Monitor playback command: al C:13eb .L_13eb
+Monitor playback command: al C:9004 .VICCR4
+Monitor playback command: al C:1474 .L_1474
+Monitor playback command: al C:9005 .VICCR5
+Monitor playback command: al C:9006 .VICCR6
+Monitor playback command: al C:1aa4 .L_1aa4
+Monitor playback command: al C:9000 .VICCR0
+Monitor playback command: al C:9001 .VICCR1
+Monitor playback command: al C:9002 .VICCR2
+Monitor playback command: al C:1597 .L_1597
+Monitor playback command: al C:9007 .VICCR7
+Monitor playback command: al C:9008 .VICCR8
+Monitor playback command: al C:9009 .VICCR9
+Monitor playback command: al C:19ab .L_19ab
+Monitor playback command: al C:1d62 .L_1d62
+Monitor playback command: al C:1bba .L_1bba
+Monitor playback command: al C:158b .L_158b
+Monitor playback command: al C:110a .L_110a
+Monitor playback command: al C:122c .L_122c
+Monitor playback command: al C:134d .L_134d
+Monitor playback command: al C:1480 .L_1480
+Monitor playback command: al C:1bd0 .L_1bd0
+Monitor playback command: al C:1124 .L_1124
+Monitor playback command: al C:1920 .L_1920
+Monitor playback command: al C:19be .L_19be
+Monitor playback command: al C:921a .VIA2SR
+Monitor playback command: al C:111a .L_111a
+Monitor playback command: al C:1a11 .L_1a11
+Monitor playback command: al C:9217 .VIA2T1LH
+Monitor playback command: al C:10b1 .L_10b1
+Monitor playback command: al C:1d72 .L_1d72
+Monitor playback command: al C:11d8 .L_11d8
+Monitor playback command: al C:19d0 .L_19d0
+Monitor playback command: al C:1b33 .L_1b33
+Monitor playback command: al C:1b2a .L_1b2a
+Monitor playback command: al C:1ac0 .L_1ac0
+Monitor playback command: al C:100d .nextline
+Monitor playback command: al C:10ad .L_10ad
+Monitor playback command: al C:11ce .L_11ce
+Monitor playback command: al C:1c63 .L_1c63
+Monitor playback command: al C:9212 .VIA2DDRB
+Monitor playback command: al C:1bda .L_1bda
+Monitor playback command: al C:9213 .VIA2DDRA
+Monitor playback command: al C:921e .VIA2IER
+Monitor playback command: al C:112d .L_112d
+Monitor playback command: al C:1bde .L_1bde
+Monitor playback command: al C:1a28 .L_1a28
+Monitor playback command: al C:1bf0 .L_1bf0
+Monitor playback command: al C:1ad0 .L_1ad0
+Monitor playback command: al C:921c .VIA2PCR
+Monitor playback command: al C:19e6 .L_19e6
+Monitor playback command: al C:1c5b .L_1c5b
+Monitor playback command: al C:12ff .L_12ff
+Monitor playback command: al C:19da .L_19da
+Monitor playback command: al C:9600 .vColorRam
+Monitor playback command: al C:1700 .L_1700
+Monitor playback command: al C:1b50 .L_1b50
+Monitor playback command: al C:9216 .VIA2T1LL
+Monitor playback command: al C:11f5 .L_11f5
+Monitor playback command: al C:1acb .L_1acb
+Monitor playback command: al C:1bec .L_1bec
+Monitor playback command: al C:125d .L_125d
+Monitor playback command: al C:10d3 .L_10d3
+Monitor playback command: al C:1a31 .L_1a31
+Monitor playback command: al C:921d .VIA2IFR
+Monitor playback command: al C:1a34 .L_1a34
+Monitor playback command: al C:193f .L_193f
+Monitor playback command: al C:1270 .L_1270
+Monitor playback command: al C:11ec .L_11ec
+Monitor playback command: al C:9110 .VIA1PB
+Monitor playback command: al C:1277 .L_1277
+Monitor playback command: al C:10cf .L_10cf
+Monitor playback command: al C:19ee .L_19ee
+Monitor playback command: al C:114d .L_114d
+Monitor playback command: al C:1ade .L_1ade
+Monitor playback command: al C:17c2 .L_17c2
+Monitor playback command: al C:1961 .L_1961
+Monitor playback command: al C:1b5f .L_1b5f
+Monitor playback command: al C:1b70 .L_1b70
+Closed monitor command playback file: C:\Users\NickSherman\Dropbox\C64\Projects\Moon Patrol/bin/moon.vs
+Sound: Opened device `dx', speed 48000Hz, fragment size 2.67ms, buffer size 32.00ms
+reSID: MOS6581, filter on, sampling rate 48000Hz - resampling, pass to 21600Hz
+Sync reset
+AUTOSTART: Injecting program data at $1000 (size $0e00)
+AUTOSTART: Ready
+AUTOSTART: Turning Warp mode off.
+AUTOSTART: Starting program.
+AUTOSTART: Restoring FileSystemDevice8 to 1.
+AUTOSTART: Restoring FSDevice8ConvertP00 to 1.
+AUTOSTART: Restoring FSDeviceLongNames to 0.
+AUTOSTART: Done.
+Sync reset
+Initiating render thread 0 shutdown
+Joining render thread 0 ...
+Render thread shutdown
+Joined render thread 0.
+
+Resources with non default values:
+LogFileName="C:\Users\NickSherman\Dropbox\C64\Projects\Moon Patrol/bin/moon_ViceLog.txt"
+SaveResourcesOnExit=1
+ConfirmOnExit=0
+MonitorXPos=1446
+MonitorYPos=559
+MonitorWidth=736
+MonitorHeight=434
+Window0Height=668
+Window0Width=747
+Window0Xpos=1408
+Window0Ypos=293
+KeySet1North=65362
+KeySet1East=65363
+KeySet1South=65364
+KeySet1West=65361
+KeySet1Fire=32
+JoyDevice1=2
+FSDevice8Dir="C:\Users\NickSherman\Dropbox\C64\Projects\Complete\DKJ\vic20\scripts/bin"
+AutostartBasicLoad=0
+AutostartTapeBasicLoad=0
+AutostartRunWithColon=0
+AutostartPrgMode=1
+ETHERNET_DISABLED=1
+
+reconstructed commandline options (might be incomplete):
+-default +confirmonexit -saveres -monitorxpos "1446" -monitorypos "559" -monitorwidth "736" -monitorheight "434" -joydev1 "2" +basicload +tapebasicload +autostartwithcolon -autostartprgmode "1"
+
+VICE thread initiating shutdown
+VICE thread is exiting
+VICE thread has been joined.
+Writing configuration file `C:\Users\NickSherman\AppData\Roaming\vice\vice.ini'.
+Sound: Closing device `dx'
