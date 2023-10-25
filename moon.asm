@@ -1497,10 +1497,16 @@
     L_1bf0:
         eor $8b,x
 
-        .byte $73,$8c,$36,$9f,$b2,$f8,$0f,$0f,$f0,$f0,$0f,$0f,$f0,$f0,$00,$00
+        .byte $73,$8c,$36,$9f,$b2,$f8,$0f,$0f,$f0,$f0,$0f,$0f,$f0,$f0
+
+     * = * "Custom Chars"
+
+        .byte $00,$00
         .byte $00,$00
 
-    L_1c00: 
+
+
+    //L_1c00: 
 
          //.import binary "Moo - Chars.bin"
         .byte $00,$00,$00,$00,$80,$c0,$a0,$90,$f8,$84,$82,$81,$e0,$90
@@ -1583,7 +1589,6 @@
         .byte $ff,$ff,$ff,$ff,$00,$00,$00,$00,$ff,$ff,$ff,$ff,$00,$00,$00,$00
         .byte $ff,$ff,$ff,$ff,$00,$00,$00,$00,$ff,$ff,$ff,$ff
 
-    * = * "Screen"
         .byte 0, 0
 
 

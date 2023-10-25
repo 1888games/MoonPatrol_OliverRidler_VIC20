@@ -10,8 +10,8 @@ Memory Map
 Default-segment:
   $1000-$100e BASIC Stub
   $100f-$1011 Entry
-  $105c-$1dfd Unnamed
-  $1dfe-$1dff Screen
+  $105c-$1bff Unnamed
+  $1c00-$1dff Custom Chars
   $1e00-$1dff Screen
 
 Writing Vice symbol file: C:\Users\NickSherman\Dropbox\C64\Projects\Moon Patrol\bin\moon.vs

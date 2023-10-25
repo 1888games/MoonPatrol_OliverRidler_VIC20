@@ -13,7 +13,7 @@ Empathic Qubit, Roberto Muscedere, June Tate-Gans, Pablo Roldan.
 This is free software with ABSOLUTELY NO WARRANTY.
 See the "About VICE" command for more info.
  
-random seed was: 0x6538df23
+random seed was: 0x6538e1e4
 command line was: c:/c64/tools/vice/bin/xvic.exe -logfile C:\Users\NickSherman\Dropbox\C64\Projects\Moon Patrol/bin/moon_ViceLog.txt -moncommands C:\Users\NickSherman\Dropbox\C64\Projects\Moon Patrol/bin/moon.vs C:\Users\NickSherman\Dropbox\C64\Projects\Moon Patrol/bin/moon.prg
 Loading system file `c:\c64\tools\vice\bin\..\VIC20\kernal.901486-07.bin'.
 Loading system file `c:\c64\tools\vice\bin\..\VIC20\basic-901486-01.bin'.
@@ -157,7 +157,6 @@ Monitor playback command: al C:1d0e .L_1d0e
 Monitor playback command: al C:9118 .VIA1T2CL
 Monitor playback command: al C:1678 .L_1678
 Monitor playback command: al C:12a2 .L_12a2
-Monitor playback command: al C:1c04 .L_1c00
 Monitor playback command: al C:9111 .VIA1PA1
 Monitor playback command: al C:12a5 .L_12a5
 Monitor playback command: al C:13c6 .L_13c6
